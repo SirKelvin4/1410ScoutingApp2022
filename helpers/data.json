@@ -4,7 +4,7 @@
     "autonomous": {
       "taxi": null, "auto_high_hub": 0, "auto_low_hub": 0, "auto_missed": 0 },
     "teleop": {
-      "teleop_high_hub": 0, "teleop_low_hub": 0, "teleop_missed": 0, "defense": null, "dead_on_field": null, "start_climbing": null
+      "teleop_high_hub": 0, "teleop_low_hub": 0, "wrong_color_cargo": 0, "defense": null, "dead_on_field": null, "start_climbing": null
     },
     "endgame": {
       "climb": null}
