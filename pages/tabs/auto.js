@@ -16,8 +16,8 @@ export default function Auto() {
                 <Button style={{width: 100}} onClick={() => {data.autonomous.var3--; document.getElementById('2').innerText=`Level 2 Cells Scored: ${data.autonomous.var3}`}}>-</Button>
             </ButtonGroup>
             <ButtonGroup variant='contained' color='secondary' aria-label='split button'  disableRipple fullWidth disableElevation>
-                <Button id='3' className='Missed' onClick={() => {data.autonomous.auto_shots_missed++; document.getElementById('3').innerText=`Shots Missed: ${data.autonomous.auto_shots_missed}`}}>Shots Missed</Button>
-                <Button className='Missed' style={{width: 100}} onClick={() => {data.autonomous.auto_shots_missed--; document.getElementById('3').innerText=`Shots Missed: ${data.autonomous.auto_shots_missed}`}}>-</Button>
+                <Button id='3' className='Missed' onClick={() => {data.autonomous.auto_missed++; document.getElementById('3').innerText=`Shots Missed: ${data.autonomous.auto_missed}`}}>Shots Missed</Button>
+                <Button className='Missed' style={{width: 100}} onClick={() => {data.autonomous.auto_missed--; document.getElementById('3').innerText=`Shots Missed: ${data.autonomous.auto_missed}`}}>-</Button>
             </ButtonGroup>
         </div>
     )
